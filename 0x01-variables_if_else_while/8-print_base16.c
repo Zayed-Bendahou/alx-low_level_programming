@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: print all alphabet letters besides q and e
+ * Description: print numbers of base16 in lowercase
  *
  * Return: Always 0 (Success)
 */
