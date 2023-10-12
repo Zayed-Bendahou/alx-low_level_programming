@@ -3,7 +3,9 @@
 /**
  * print_diagonal - function that prints a diagonal line
  *
- * @n: number of the times _ should be printed
+ * @n: number of the times \ should be printed
+ *
+ * Return: always 0
 */
 
 void print_diagonal(int n)
