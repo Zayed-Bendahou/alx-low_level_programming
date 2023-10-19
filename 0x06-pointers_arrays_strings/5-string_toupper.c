@@ -8,7 +8,7 @@
  * Return: n
 **/
 
-char *string_troupper(char *n)
+char *string_toupper(char *n)
 {
 	int i;
 
