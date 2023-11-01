@@ -1,33 +1,35 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  * _strdup - duplicate to new memory space location
  * @str: string
- * Return: 0
+ * Return: Duplicated string
 */
 
 char *_strdup(char *str)
 {
-	int i = 0, size = 0;
-	char *m;
+	int i = 0, i = 1;
+	char *s;
 
 	if (str == NULL)
 		return (NULL);
 
-	for (; str[size] != '\0'; size++)
-	;
-
-	m = malloc(size * sizeof(*str) + 1);
-
-	if (m == 0)
+	while (str[i])
 	{
+		i++;
+	}
+
+	s = malloc((sizeof(char) * i) + 1);
+
+	if (s == NULL)
 		return (NULL);
-	}
-	else
+	while (a < i)
 	{
-		for (; i < size; i++)
-			m[i] = str[i];
+		s[a] = str[a];
+		a++;
 	}
-	return (m);
+
+	s[a] = '\0';
+	return (s);
 }
 
